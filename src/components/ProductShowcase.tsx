@@ -57,8 +57,8 @@ export const ProductShowcase = () => {
             <div className="text-center space-y-6 p-8 rounded-2xl bg-muted/50">
               <div>
                 <p className="text-lg text-muted-foreground line-through mb-2">De R$ 197,00</p>
-                <p className="text-5xl font-bold text-primary mb-2">R$ 97,00</p>
-                <p className="text-muted-foreground">Pagamento único • Acesso vitalício</p>
+                <p className="text-5xl font-bold text-primary mb-2">R$ 47,00</p>
+                <p className="text-muted-foreground">ou 11x de R$ 5,08 • Acesso vitalício</p>
               </div>
             </div>
           </Card>
