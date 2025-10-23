@@ -15,7 +15,7 @@ const features = [
 
 export const ProductShowcase = () => {
   return (
-    <section className="py-24 px-4 bg-gradient-hero">
+    <section id="produto" className="py-24 px-4 bg-gradient-hero">
       <div className="container">
         <div className="max-w-4xl mx-auto">
           <Card className="p-8 md:p-12 bg-card/95 backdrop-blur-sm shadow-2xl">

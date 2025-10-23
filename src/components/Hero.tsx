@@ -29,7 +29,11 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-full shadow-glow transition-all hover:scale-105">
+              <Button 
+                size="lg" 
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-full shadow-glow transition-all hover:scale-105"
+                onClick={() => document.getElementById('produto')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Começar Agora
               </Button>
               <Button size="lg" variant="outline" className="bg-primary-foreground/10 backdrop-blur-sm border-2 border-primary-foreground hover:bg-primary-foreground/20 text-primary-foreground font-bold text-lg px-8 py-6 rounded-full">
